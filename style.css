@@ -6,17 +6,64 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-    background-color: black;
   
   }
 
-  .itim {
-    font-family: "Itim", cursive;
-    font-weight: 400;
+  .mitr {
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: 28px;
   }
   .ibm {
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
+    font-size: 28px;
+  }
+  
+  .box-container {
+    background-position: center;
+    background-color: #204762;
+    background-size: cover;
+  }
+  .container {
+    width: 1000px;         
+    padding: 20px;
+    margin-bottom: 30%;
+    margin-right: 13%;
+    margin-left: 10%;        
+    border: 3px solid rgb(255, 255, 255); 
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 16px;
+  }
+  .column-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  form {
+    width: 400px;  /* ความกว้างของฟอร์ม */
+    height: auto;  /* ความสูงจะปรับตามเนื้อหาภายใน */
+    padding: 20px; /* ระยะห่างภายในฟอร์ม */
+    border: 1px solid #ccc; /* กำหนดขอบให้ฟอร์ม */
+    border-radius: 8px; /* มุมกลม */
+}
+
+input, textarea, button {
+    width: 60%; /* กำหนดความกว้างของ input, textarea, button ให้เต็มฟอร์ม */
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  span {
+    color: red;
   }

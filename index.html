@@ -5,16 +5,42 @@
     <title>cstu library</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Mitr:wght@200;300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap">
 </head>
 <body>
     
     <!--header-->
-    <header>
+    <header class="box-container">
         <center> <img src="resources/logo_cstulib.png" alt="CSTU LIBRARY" </center>
-        <center><p class="ibm">thammasat university</p></center>
 
     </header>
+    <form class="container">
+        <center><p class="ibm" style="color: rgb(8, 53, 75);">LIBRARY MEMBERSHIP APPLICATION</p></center>
+        <!-- name form -->
+         <div class="column-container">
+            <div>
+                <label>ชื่อ<span>*</span>&nbsp;&nbsp;</label><br>
+                <input type="text" placeholder="ป้อนชื่อจริงของคุณ" id="nameth" name="nameth" required><br>
+            </div>
+            <div>
+                <label>name<span>*</span>&nbsp;&nbsp;</label><br>
+                <input type="text" placeholder="Please enter your name" id="nameen" name="nameen" required><br>
+            </div>
+         </div>
+        <!-- surname form -->
+        <div class="column-container">
+            <div>
+                <label>นามสกุล<span>*</span>&nbsp;&nbsp;</label><br>
+                <input type="text" placeholder="ป้อนนามสกุลจริงของคุณ" id="surnameth" name="surnameth" required><br>
+            </div>
+            <div>
+                <label>surname<span>*</span>&nbsp;&nbsp;</label><br>
+                <input type="text" placeholder="Please enter your surname" id="surnameen" name="surnameen" required><br>
+            </div>
+         </div>
+        
+    </form>
+    
 </body>
 </html>
