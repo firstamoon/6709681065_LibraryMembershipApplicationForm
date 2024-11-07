@@ -49,6 +49,20 @@ body {
     margin-left: 10px;
   }
 
+  .column-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr ;
+    gap: 0px;
+    padding: 2px;
+    margin-left:5px;
+    white-space: nowrap;
+  }
+  .mar {
+    gap: 7px;
+    padding: 10px;
+    margin-left:10px;
+  }
+
   form {
     width: 400px;  /* ความกว้างของฟอร์ม */
     height: auto;  /* ความสูงจะปรับตามเนื้อหาภายใน */
