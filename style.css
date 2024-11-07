@@ -57,6 +57,15 @@ body {
     margin-left:5px;
     white-space: nowrap;
   }
+
+  .column-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
   .mar {
     gap: 7px;
     padding: 10px;
