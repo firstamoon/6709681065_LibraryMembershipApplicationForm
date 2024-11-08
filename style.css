@@ -86,11 +86,15 @@ body {
     padding-top: 10px;
   }
   .column-container6 {
-    display: grid;
-    grid-template-columns: 1fr  1fr;
     gap: 10 px;
     margin-left: 10px;
     padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr ;
+    gap: 0px;
+    padding: 2px;
+    margin-left:5px;
+    white-space: nowrap;
   }
 
   .mar {

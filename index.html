@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cstu library</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Mitr:wght@200;300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Mitr:wght@200;300;400;500;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap">
 </head>
+
 <body>
-    
+
     <!--header-->
     <header class="box-container">
         <center> <img src="resources/logo_cstulib.png" alt="CSTU LIBRARY" </center>
 
     </header>
     <form class="container">
-        <center><p class="ibm" style="color: rgb(8, 53, 75);">LIBRARY MEMBERSHIP APPLICATION</p></center>
+        <center>
+            <p class="ibm" style="color: rgb(8, 53, 75);">LIBRARY MEMBERSHIP APPLICATION</p>
+        </center>
         <!-- name form -->
-         <div class="column-container">
+        <div class="column-container">
             <div>
                 <label>ชื่อ<span>*</span>&nbsp;&nbsp;</label><br>
                 <input type="text" placeholder="ป้อนชื่อจริงของคุณ" id="nameth" name="nameth" required><br>
@@ -27,7 +33,7 @@
                 <label>name<span>*</span>&nbsp;&nbsp;</label><br>
                 <input type="text" placeholder="Please enter your name" id="nameen" name="nameen" required><br>
             </div>
-         </div>
+        </div>
         <!-- surname form -->
         <div class="column-container">
             <div>
@@ -38,9 +44,9 @@
                 <label>surname<span>*</span>&nbsp;&nbsp;</label><br>
                 <input type="text" placeholder="Please enter your surname" id="surnameen" name="surnameen" required><br>
             </div>
-         </div>
-         <!-- gender -->
-         <div class="mar">
+        </div>
+        <!-- gender -->
+        <div class="mar">
             <label>gender<span>*</span>&nbsp;&nbsp;</label>
             <div class="column-container2">
                 <div>
@@ -56,8 +62,8 @@
                     <label for="lgbtqia+">LGBTQIA+</label>
                 </div>
             </div>
-         </div>
-         <!-- std number -->
+        </div>
+        <!-- std number -->
         <div class="column-container3">
             <label>student number<span>*</span>&nbsp;&nbsp;</label>
             <input type="text" placeholder="Please enter your student number" id="std_num" name="std_num" required><br>
@@ -66,50 +72,52 @@
         <div class="column-container4">
             <label for="faculty">Faculty<span>*</span>&nbsp;&nbsp;</label>
             <select id="faculty" name="faculty">
-            <option value="law">คณะนิติศาสตร์</option>
-            <option value="accy">คณะพานิชยศาสตร์และการบัญชี</option>
-            <option value="polsci">คณะรัฐศาสตร์</option>
-            <option value="econ">คณะเศรษฐศาสตร์</option>
-            <option value="socadmin">คณะสังคมสงเคราะห์ศาสตร์</option>
-            <option value="socanth">คณะสังคมวิทยาและมานุษยวิทยา</option>
-            <option value="arts">คณะศิลปศาสตร์</option>
-            <option value="jc">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
-            <option value="sci">คณะวิทยาศาสตร์และเทคโนโลยี</option>
-            <option value="engr">คณะวิศวกรรมศาสตร์</option>
-            <option value="finart">คณะศิลปกรรมศาสตร์</option>
-            <option value="med">คณะแพทยศาสตร์</option>
-            <option value="ahs">คณะสหเวชศาสตร์</option>
-            <option value="dent">คณะทันตแพทยศาสตร์</option>
-            <option value="nurse">คณะพยาบาลศาสตร์</option>
-            <option value="fph">คณะสาธารณสุขศาสตร์</option>
-            <option value="ised">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
-            <option value="pspd">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
-            <option value="citu">วิทยาลัยนวัตกรรม</option>
-            <option value="cis">วิทยาลัยสหวิทยาการ</option>
-            <option value="sgs">วิทยาลัยโลกและคดีศึกษา</option>
-            <option value="siit">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
-            <option value="sgs">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
-            <option value="cicm">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
-            <option value="icehr">สถาบันเสริมศึกษาและทรัพยากรมนุษย์</option>
-            <option value="tkri">สถาบันไทยและคดีศึกษา</option>
-            <option value="ieas">สถาบันเอเชียตะวันออกศึกษา</option>
-            <option value="litu">สถาบันภาษา</option>
-            <option value="sgs">สถาบันอาณาบริเวณศึกษา</option>
-        </select>
+                <option value="law">คณะนิติศาสตร์</option>
+                <option value="accy">คณะพานิชยศาสตร์และการบัญชี</option>
+                <option value="polsci">คณะรัฐศาสตร์</option>
+                <option value="econ">คณะเศรษฐศาสตร์</option>
+                <option value="socadmin">คณะสังคมสงเคราะห์ศาสตร์</option>
+                <option value="socanth">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                <option value="arts">คณะศิลปศาสตร์</option>
+                <option value="jc">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                <option value="sci">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                <option value="engr">คณะวิศวกรรมศาสตร์</option>
+                <option value="finart">คณะศิลปกรรมศาสตร์</option>
+                <option value="med">คณะแพทยศาสตร์</option>
+                <option value="ahs">คณะสหเวชศาสตร์</option>
+                <option value="dent">คณะทันตแพทยศาสตร์</option>
+                <option value="nurse">คณะพยาบาลศาสตร์</option>
+                <option value="fph">คณะสาธารณสุขศาสตร์</option>
+                <option value="ised">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                <option value="pspd">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                <option value="citu">วิทยาลัยนวัตกรรม</option>
+                <option value="cis">วิทยาลัยสหวิทยาการ</option>
+                <option value="sgs">วิทยาลัยโลกและคดีศึกษา</option>
+                <option value="siit">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                <option value="sgs">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
+                <option value="cicm">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+                <option value="icehr">สถาบันเสริมศึกษาและทรัพยากรมนุษย์</option>
+                <option value="tkri">สถาบันไทยและคดีศึกษา</option>
+                <option value="ieas">สถาบันเอเชียตะวันออกศึกษา</option>
+                <option value="litu">สถาบันภาษา</option>
+                <option value="sgs">สถาบันอาณาบริเวณศึกษา</option>
+            </select>
         </div>
         <!-- birthday -->
         <div class="column-container5">
             <label for="birthday">Birthday<span>*</span>&nbsp;&nbsp;</label>
             <input type="date" id="birthday" name="birthday">
         </div>
+        <br>
         <!-- email -->
         <div class="column-container5">
             <label for="email">Email Address <span>*</span></label>
             <input type="text" placeholder="Enter your email address" id="email" name="email" required>
         </div>
+        <br>
         <!-- type -->
         <div class="column-container6">
-            <label >Type of book you are interested in</label><br>
+            <label>Type of book you are interested in</label><br>
             <div>
                 <div>
                     <input type="checkbox" id="romance" name="romance" value="romance">
@@ -125,7 +133,7 @@
                     <input type="checkbox" id="fantasy" name="fantasy" value="fantasy">
                     <label for="fantasy">Fantasy</label>
                 </div>
-              
+
                 <div>
                     <input type="checkbox" id="suspense" name="suspense" value="suspense">
                     <label for="suspense">Suspense</label>
@@ -141,18 +149,46 @@
                     <label for="other">Others</label>
                 </div>
             </div>
-
-    </form>
-</div>
-
-
-            
-
-
         </div>
+        <br>
+        <!-- update -->
+        <div class="column-container6">
+            <label>Would you like to receive updates via email? <span>*</span></label><br>
+            <div class="">
+                <div>
+                    <input type="radio" id="yes" name="yes" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="no" value="no">
+                    <label for="no">No</label>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- check -->
+            <div class="column-container6">
+                <input type="checkbox" id="confirm" name="confirm" required>
+                <label for="confirm">all information is correct <span style="color:red;">*</span></label>
+            </div>
 
-         
+            <center>
+                <button type="submit" class="register-btn">CONFIRM</button>
+            </center>
+
+
     </form>
-    
+    </div>
+
+
+
+
+
+    </div>
+
+
+    </form>
+
 </body>
+
 </html>
