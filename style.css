@@ -68,12 +68,29 @@ body {
 
   .column-container4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 7px;
+    padding: 10px;
     margin-left: 10px;
     width: 400px;  
     height: 20px; 
-    padding: 30px; 
+    padding: 10px; 
+  }
+
+  .column-container5 {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 7px;
+    margin-left: 10px;
+    padding-left: 10px; 
+    padding-top: 10px;
+  }
+  .column-container6 {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 10 px;
+    margin-left: 10px;
+    padding-top: 10px;
   }
 
   .mar {
